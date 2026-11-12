@@ -1,4 +1,4 @@
-/* ===== Home page styles (self-contained: everything is scoped to .home-page) ===== */
+
 html { scroll-behavior: smooth; }
 
 .home-page {
@@ -22,7 +22,6 @@ html { scroll-behavior: smooth; }
 .home-page p { margin: 0; }
 .home-page .wrap { width: min(1100px, 92%); margin-inline: auto; }
 
-/* Hero (soft orange and brown glows) */
 .home-page .hero {
     padding-block: 4rem 3rem; border-bottom: 1px solid var(--border);
     background:
@@ -35,12 +34,28 @@ html { scroll-behavior: smooth; }
 .home-page .hero-text p { max-width: 52ch; color: var(--muted); font-size: 1.15rem; }
 .home-page .hero-actions { display: flex; gap: .8rem; flex-wrap: wrap; margin-top: 1.5rem; }
 
-.home-page .btn { display: inline-block; padding: .7rem 1.3rem; border-radius: 999px; font-weight: 600; text-decoration: none; border: 2px solid var(--primary); color: var(--text); }
-.home-page .btn-primary { background: var(--primary); color: var(--on-primary); }
-.home-page .btn-accent { background: var(--accent); border-color: var(--accent); color: var(--on-accent); }
-.home-page .btn:hover { transform: translateY(-2px); }
+.home-page .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 
-/* Photo slots: placeholder shows until the image file exists */
+    height: 44px;
+    padding: 0 26px;
+    box-sizing: border-box;
+
+    line-height: 1;
+    vertical-align: middle;
+
+    border-radius: 999px;
+    font-weight: 600;
+    font-size: 1rem;
+    text-decoration: none;
+
+    border: 2px solid var(--primary);
+    color: var(--text);
+}
+
 .home-page .photo-slot {
     position: relative; overflow: hidden; aspect-ratio: 4 / 3;
     display: grid; place-items: center; text-align: center;

@@ -28,6 +28,9 @@
         ['name' => 'Cinnamon Roll',         'photo' => 'cinnamon-roll.jpg',   'price' => 110, 'desc' => 'Soft roll swirled with cinnamon and topped with icing.'],
         ['name' => 'Banana Bread',          'photo' => 'banana-bread.jpg',    'price' => 90,  'desc' => 'Moist, lightly sweet, and best with a hot coffee.'],
         ['name' => 'Chocolate Chip Cookie', 'photo' => 'cookie.jpg',          'price' => 70,  'desc' => 'Crisp edges, a soft middle, and melted chocolate.'],
+        ['name' => 'Blueberry Muffin',     'photo' => 'blueberry-muffin.jpg', 'price' => 95, 'desc' => 'Soft muffin with blueberries and a sugar top.'],
+        ['name' => 'Ensaymada',            'photo' => 'ensaymada.jpg',       'price' => 85,  'desc' => 'A soft Filipino brioche with butter, sugar and cheese.'],
+        ['name' => 'Fudgy Brownie',        'photo' => 'fudgy-brownie.jpg',   'price' => 80,  'desc' => 'Dense chocolate brownie, good with coffee.'],
     ];
 @endphp
 
@@ -46,7 +49,6 @@
                 </div>
             </div>
 
-            {{-- PHOTO: public/images/hero.jpg --}}
             <div class="photo-slot photo-hero">
                 <img src="{{ asset('images/hero.jpg') }}" alt="Coffee served at Git Brew" onerror="this.remove()">
                 <span>Add photo<br><small>images/hero.jpg</small></span>
