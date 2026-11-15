@@ -2,6 +2,8 @@
 
 **Group activity for IT 110: Building a Multi-Page Laravel Web App**
 
+| | |
+| --- | --- |
 | **Group Name** | Git Brew |
 | **Section** | AIGO1 |
 | **Theme** | Git Brew: Cafe |
@@ -12,6 +14,7 @@
 ## Team Members and Assigned Modules
 
 | Member | Branch Name | Assigned Module |
+| --- | --- | --- |
 | Jemuel Abbu | `dev-member1-Abbu` | Project Setup, Layout, Home Page |
 | Ralph Dionson | `dev-member2-Dionson` | About Page, Contact Page |
 
@@ -41,6 +44,7 @@
 ### Requirements
 
 | Tool | Notes |
+| --- | --- |
 | **PHP** (8.2 or higher) | Check with `php -v`. Included with Laravel Herd. |
 | **Composer** | Check with `composer -V`. Included with Laravel Herd. |
 | **Node.js and npm** | Check with `node -v` and `npm -v`. |
@@ -211,6 +215,7 @@ composer dump-autoload
 ## Quick Reference
 
 | Task | Command |
+| --- | --- |
 | Install PHP packages | `composer install` |
 | Install JS packages | `npm install` |
 | Run migrations | `php artisan migrate` |
