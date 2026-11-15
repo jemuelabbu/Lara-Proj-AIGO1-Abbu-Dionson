@@ -13,11 +13,11 @@
     // Team data: replace the placeholder names (and add a photo path) when real details are available.
     // Photos go in public/images/team/ — leave 'photo' as null to show the default avatar.
     $team = [
-        ['name' => 'Jemuel Abbu', 'role' => 'Owner & Store Manager', 'photo' => 'mem1.png', 'bio' => 'Oversees daily operations, manages the business, and ensures quality products and customer service.'],
-        ['name' => 'Ralph Dionson', 'role' => 'Barista & Service Crew', 'photo' => 'mem2.png', 'bio' => 'Prepares coffee, serves pastries, and assists customers with their orders.s'],
-
+        ['name' => 'Team Member 1', 'role' => 'Founder & Head Roaster', 'photo' => null, 'bio' => 'Chooses the beans and roasts every batch each morning.'],
+        ['name' => 'Team Member 2', 'role' => 'Head Barista',           'photo' => null, 'bio' => 'Dials in the espresso and trains the rest of the bar team.'],
+        ['name' => 'Team Member 3', 'role' => 'Pastry Chef',            'photo' => null, 'bio' => 'Bakes the croissants, rolls, and cookies before we open.'],
+        ['name' => 'Team Member 4', 'role' => 'Café Manager',           'photo' => null, 'bio' => 'Keeps the shop running and makes sure every guest feels at home.'],
     ];
-
 
     $services = [
         ['title' => 'Freshly roasted coffee', 'text' => 'Espresso drinks, lattes, and iced coffee made from beans roasted in small batches.'],
@@ -134,7 +134,7 @@
     {{-- Team --}}
     <section class="about-section about-wrap" aria-labelledby="team-title">
         <h2 id="team-title" class="about-heading">Meet the team</h2>
-        <p class="about-intro">The people behind the counter.</p>
+        <p class="about-intro">The people behind the counter. <span class="about-note">(Names are placeholders until staff details are confirmed.)</span></p>
 
         <div class="team-grid">
             @foreach ($team as $member)
