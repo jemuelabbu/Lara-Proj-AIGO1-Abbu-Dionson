@@ -24,18 +24,29 @@
 
 ### Member 1: Jemuel Abbu (Project Setup, Layout, Home Page)
 
+**Light Mode**
 <img width="1763" height="3371" alt="home-page" src="https://github.com/user-attachments/assets/ecdf6e45-ebf3-4f41-ba22-10f7ccfec57c" />
+
+**Dark Mode**
+<img width="1763" height="3371" alt="dark-mode-home-page" src="https://github.com/user-attachments/assets/866849a7-067a-4feb-b18f-7f9d94992b1f" />
 
 ### Member 2: Ralph Dionson (About Page, Contact Page)
 
 **About Page**
 
+**Light Mode**
 <img width="1763" height="2059" alt="about-page" src="https://github.com/user-attachments/assets/bd78430a-612f-4333-bf6f-aa953d065d81" />
 
+**Dark Mode**
+<img width="1763" height="2059" alt="dark-mode-about-page" src="https://github.com/user-attachments/assets/72c51ac8-792e-4c4b-b153-e6a4ac348f31" />
 
 **Contact Page**
 
+**Light Mode**
 <img width="1763" height="1306" alt="contact-page" src="https://github.com/user-attachments/assets/62cdb2d3-dc45-4e9e-acbb-7a1586ef4dbc" />
+
+**Dark Mode**
+<img width="1763" height="1306" alt="dark-mode-contact-page" src="https://github.com/user-attachments/assets/635ca5d1-5e24-4829-8b42-d28080ca1c9f" />
 
 ---
 
