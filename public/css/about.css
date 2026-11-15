@@ -210,10 +210,6 @@
     color: var(--muted);
     margin: -0.8rem 0 1.5rem;
 }
-.about-page .about-note {
-    font-size: 0.9rem;
-    font-style: italic;
-}
 
 /* Services */
 .about-page .services-grid {
