@@ -33,9 +33,10 @@
             <header class="sticky top-0 z-40 border-b bg-card/85 backdrop-blur supports-[backdrop-filter]:bg-card/70">
                 <div class="mx-auto flex h-16 w-full max-w-6xl items-center gap-3 px-4 sm:px-6">
                     <a href="{{ route('home') }}" class="flex shrink-0 items-center gap-2" aria-label="{{ config('app.name', 'Laravel') }} home">
-                    <img src="{{ asset('images/logo.png') }}" alt="Git Brew logo" class="size-30 rounded-md object-contain">
-
-
+                        {{-- Light mode logo (hidden in dark mode) --}}
+                        <img src="{{ asset('images/lightmode_logo.png') }}" alt="Git Brew logo" class="size-30 rounded-md object-contain dark:hidden">
+                        {{-- Dark mode logo (hidden in light mode) --}}
+                        <img src="{{ asset('images/darkmode_logo.png') }}" alt="Git Brew logo" class="hidden size-30 rounded-md object-contain dark:block">
                     </a>
 
                     <nav class="ml-auto flex items-center gap-1" aria-label="Main navigation">
