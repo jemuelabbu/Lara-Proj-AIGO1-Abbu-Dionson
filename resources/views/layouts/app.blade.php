@@ -73,7 +73,7 @@
             </main>
 
             <footer class="border-t bg-card/60">
-                <div class="mx-auto flex w-full max-w-6xl flex-col gap-4 px-4 py-8 sm:flex-row sm:items-center sm:justify-between sm:px-6">
+                <div class="mx-auto flex w-full max-w-6xl flex-col items-center justify-center px-4 py-8 text-center sm:px-6">
                     <div class="space-y-1">
                         <p class="text-sm text-muted-foreground">
                             &copy; {{ date('Y') }} {{ config('app.name', 'Laravel') }}. All rights reserved.
@@ -82,11 +82,6 @@
                             Group members: <span class="font-medium text-foreground">Jemuel Abbu</span> &amp; <span class="font-medium text-foreground">Ralph Dionson</span>
                         </p>
                     </div>
-                    <nav class="flex items-center gap-4 text-sm text-muted-foreground" aria-label="Footer navigation">
-                        <a href="{{ route('home') }}" class="transition-colors hover:text-foreground">Home</a>
-                        <a href="{{ route('about') }}" class="transition-colors hover:text-foreground">About</a>
-                        <a href="{{ route('contact') }}" class="transition-colors hover:text-foreground">Contacts</a>
-                    </nav>
                 </div>
             </footer>
         </div>
