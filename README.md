@@ -2,8 +2,6 @@
 
 **Group activity for IT 110: Building a Multi-Page Laravel Web App**
 
-| | |
-| --- | --- |
 | **Group Name** | Git Brew |
 | **Section** | AIGO1 |
 | **Theme** | Git Brew: Cafe |
@@ -14,7 +12,6 @@
 ## Team Members and Assigned Modules
 
 | Member | Branch Name | Assigned Module |
-| --- | --- | --- |
 | Jemuel Abbu | `dev-member1-Abbu` | Project Setup, Layout, Home Page |
 | Ralph Dionson | `dev-member2-Dionson` | About Page, Contact Page |
 
@@ -24,18 +21,17 @@
 
 ### Member 1: Jemuel Abbu (Project Setup, Layout, Home Page)
 
-<img width="1763" height="3371" alt="home-page" src="https://github.com/user-attachments/assets/ecdf6e45-ebf3-4f41-ba22-10f7ccfec57c" />
+_Screenshots to be added._
 
 ### Member 2: Ralph Dionson (About Page, Contact Page)
 
 **About Page**
 
-<img width="1763" height="2059" alt="about-page" src="https://github.com/user-attachments/assets/bd78430a-612f-4333-bf6f-aa953d065d81" />
-
+_Screenshots to be added._
 
 **Contact Page**
 
-<img width="1763" height="1306" alt="contact-page" src="https://github.com/user-attachments/assets/62cdb2d3-dc45-4e9e-acbb-7a1586ef4dbc" />
+_Screenshots to be added._
 
 ---
 
@@ -44,7 +40,6 @@
 ### Requirements
 
 | Tool | Notes |
-| --- | --- |
 | **PHP** (8.2 or higher) | Check with `php -v`. Included with Laravel Herd. |
 | **Composer** | Check with `composer -V`. Included with Laravel Herd. |
 | **Node.js and npm** | Check with `node -v` and `npm -v`. |
@@ -215,7 +210,6 @@ composer dump-autoload
 ## Quick Reference
 
 | Task | Command |
-| --- | --- |
 | Install PHP packages | `composer install` |
 | Install JS packages | `npm install` |
 | Run migrations | `php artisan migrate` |
