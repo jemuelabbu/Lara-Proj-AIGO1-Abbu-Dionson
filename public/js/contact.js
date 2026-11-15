@@ -8,11 +8,13 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Rules for each field: the message to show when it's empty, plus any extra check
     var rules = {
-        name:    { empty: 'Please enter your full name.' },
-        email:   {
+        name: { empty: 'Please enter your full name.' },
+        email: {
             empty: 'Please enter your email address.',
             check: function (value) {
-                return EMAIL_PATTERN.test(value) ? '' : 'Please enter a valid email address (e.g. you@example.com).';
+                return EMAIL_PATTERN.test(value)
+                    ? ''
+                    : 'Please enter a valid email address (e.g. you@example.com).';
             },
         },
         subject: { empty: 'Please enter a subject.' },
@@ -49,7 +51,9 @@ document.addEventListener('DOMContentLoaded', function () {
         document.getElementById(input.name + '-error').textContent = '';
     }
 
-    var inputs = Array.prototype.slice.call(form.querySelectorAll('input, textarea'));
+    var inputs = Array.prototype.slice.call(
+        form.querySelectorAll('input, textarea'),
+    );
 
     inputs.forEach(function (input) {
         // Re-check a field as the user types once it has been checked before,
@@ -61,7 +65,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
         // Check a field when the user leaves it, but only if they typed something
         input.addEventListener('blur', function () {
-            if (input.value.trim() !== '' || input.hasAttribute('aria-invalid')) validate(input);
+            if (input.value.trim() !== '' || input.hasAttribute('aria-invalid'))
+                validate(input);
         });
     });
 
