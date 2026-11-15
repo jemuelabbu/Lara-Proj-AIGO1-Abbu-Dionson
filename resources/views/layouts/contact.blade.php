@@ -26,7 +26,6 @@
             <p class="contact-eyebrow">Contact us</p>
             <h1 id="contact-title">Let's talk over coffee.</h1>
             <p class="contact-lead">
-                Questions about the menu, catering for an event, or just want to say hi?
                 Send us a message or drop by the café.
             </p>
         </div>
@@ -92,8 +91,7 @@
         {{-- Contact information (placeholders) --}}
         <aside class="contact-info" aria-labelledby="info-title">
             <div class="contact-card">
-                <h2 id="info-title">Visit or reach us</h2>
-                <p class="contact-placeholder-note">Details below are placeholders.</p>
+                <h2 id="info-title">Visit or reach us </h2>
 
                 <ul class="info-list">
                     <li>
@@ -102,7 +100,7 @@
                         </span>
                         <div>
                             <span class="info-label">Email</span>
-                            <a href="mailto:hello@gitbrew.example">hello@gitbrew.example</a>
+                            <a href="mailto:gitbrewcafe@gmail.com">gitbrewcafe@gmail.com</a>
                         </div>
                     </li>
                     <li>
@@ -111,7 +109,7 @@
                         </span>
                         <div>
                             <span class="info-label">Phone</span>
-                            <a href="tel:+630000000000">+63 900 000 0000</a>
+                            <a href="tel:+630000000000">+63 970 9683 408</a>
                         </div>
                     </li>
                     <li>
@@ -120,7 +118,7 @@
                         </span>
                         <div>
                             <span class="info-label">Address</span>
-                            <address>123 Sample Street, Barangay Placeholder,<br>City, Province 0000</address>
+                            <address>Purok 6, Ampayon,<br>Butuan City, Agusan del Norte 8600</address>
                         </div>
                     </li>
                 </ul>
